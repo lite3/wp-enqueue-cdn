@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flash Show And Hide Box\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-18 23:10+0800\n"
+"PO-Revision-Date: 2014-01-18 23:10+0800\n"
+"Last-Translator: lite3 <lite3@qq.com>\n"
+"Language-Team: lite3 <lite3@qq.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-resources-url-optimization.php:221
+msgid "Settings"
+msgstr "设置"
+
+#: wp-resources-url-optimization.php:252
+msgid "WP Resources URL Optimization Options"
+msgstr "WP Resources URL Optimization  选项"
+
+#: wp-resources-url-optimization.php:257
+msgid "Donation"
+msgstr "资助鼓励"
+
+#: wp-resources-url-optimization.php:259
+msgid ""
+"If you like this plugin, please donate to support development and "
+"maintenance!"
+msgstr ""
+"如果你认为我做的这些对你来说是有价值的，并鼓励我进行更多开源和免费的开发。那"
+"你可以资助我，就算是一杯咖啡…"
+
+#: wp-resources-url-optimization.php:260
+msgid "Donate by alipay"
+msgstr "通过支付宝资助"
+
+#: wp-resources-url-optimization.php:266
+msgid "About Author"
+msgstr "关于作者"
+
+#: wp-resources-url-optimization.php:269
+msgid "Author Blog"
+msgstr "作者的博客"
+
+#: wp-resources-url-optimization.php:270
+msgid "More Plugins"
+msgstr "更多插件"
+
+#: wp-resources-url-optimization.php:283
+msgid "Only remove query string of URL"
+msgstr "仅移除URL参数"
+
+#: wp-resources-url-optimization.php:287
+msgid ""
+"Only remove query string of URL, if not, Cache js, css and css sprite file "
+"to resource directory."
+msgstr "仅移除URL参数，否则将缓存js，css及css图片到资源备份目录。"
+
+#: wp-resources-url-optimization.php:295
+msgid "Update Options"
+msgstr "更新选项"
+
+#: wp-resources-url-optimization.php:296
+msgid "Reset Settings to Defaults"
+msgstr "重置选项"
+
+#: wp-resources-url-optimization.php:297
+msgid "Clear cache directory"
+msgstr "清理缓存目录"
