@@ -43,10 +43,9 @@ if (!class_exists('WP_ENQUEUE_CND')) {
 				load_plugin_textdomain( 'wpresourcesurloptimization', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/');
 				add_action('admin_menu', array($this, 'add'));
 				add_filter( 'plugin_action_links', array($this, 'plugin_action_links'), 10, 2 );
-			}else{
-				add_filter('script_loader_src', array(&$this, 'optimize_style_script_url'), 1000);
-				add_filter('style_loader_src', array(&$this, 'optimize_style_script_url'), 1000);
 			}
+			add_filter('script_loader_src', array(&$this, 'optimize_style_script_url'), 1000);
+			add_filter('style_loader_src', array(&$this, 'optimize_style_script_url'), 1000);
 		}
 		
 		public function optimize_style_script_url($src) {
