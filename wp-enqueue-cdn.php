@@ -68,6 +68,9 @@ if (!class_exists('WP_ENQUEUE_CND')) {
 			if (strpos($src, 'prettify.js')) {
 				return 'http://apps.bdimg.com/libs/prettify/r298/prettify.min.js';
 			}
+			if (strpos($src, '//fonts.googleapis.com/')) {
+				return str_replace('//fonts.googleapis.com/','//fonts.useso.com/',$src);
+			}
 			return $src;
 		}
 		
