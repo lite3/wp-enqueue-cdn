@@ -61,13 +61,13 @@ if (!class_exists('WP_ENQUEUE_CND')) {
 			if (strpos($src, 'jquery.min.js') !== false) {
 				return 'http://libs.useso.com/js/jquery/1.11.0/jquery.min.js';
 			}
-			if (strpos($src, 'prettify.css')) {
+			if (strpos($src, 'prettify.css') !== false) {
 				return 'http://apps.bdimg.com/libs/prettify/r298/prettify.min.css';
 			}
-			if (strpos($src, 'prettify.js')) {
+			if (strpos($src, 'prettify.js') !== false) {
 				return 'http://apps.bdimg.com/libs/prettify/r298/prettify.min.js';
 			}
-			if (strpos($src, '//fonts.googleapis.com/')) {
+			if (strpos($src, '//fonts.googleapis.com/') !== false) {
 				return str_replace('//fonts.googleapis.com/','//fonts.useso.com/',$src);
 			}
 			return $src;
